@@ -7,8 +7,9 @@ public class Main {
         if (age < 18){
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия," +
                     " нужно немного подождать.");
-        } else
+        } else{
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
+        }
 
 
         for (int i = 0; i < 3; i++){
@@ -16,7 +17,7 @@ public class Main {
         }
         System.out.println("Задание 2");
         int temp = 5;
-        if (temp < 5){
+        if (temp <= 5){
             System.out.println("На улице холодно, нужно надеть шапку");
         } else
             System.out.println("Сегодня тепло, можно идти без шапки");
@@ -37,14 +38,15 @@ public class Main {
         }
         System.out.println("Задание 4");
         int age1 = 25;
-        if (age1 >= 2 && age1 <= 6)
+        if (age1 >= 2 && age1 <= 6){
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в садик.");
-        if (age1 >= 7 && age1 <= 17)
+        } else if (age1 >= 7 && age1 <= 17){
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу.");
-        if (age1 >= 18 && age1 <= 24)
+        } else if (age1 >= 18 && age1 <= 24){
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в университет.");
-        if (age1 > 24)
+        } else if (age1 > 24){
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить на работу.");
+        }
 
 
         for (int i = 0; i < 3; i++){
