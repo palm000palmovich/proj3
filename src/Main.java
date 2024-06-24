@@ -47,6 +47,16 @@ public class Main {
             System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить на работу.");
 
 
-
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 5");
+        int age2 = 14;
+        if (age2 < 5)
+            System.out.println("Если возраст ребенка равен " + age2 + ", то ему нельзя кататься.");
+        if (age2 >= 5 && age2 < 14)
+            System.out.println("Если возраст ребенка равен " + age2 + ", то ему можно кататься только со взрослым.");
+        if (age2 >= 14)
+            System.out.println("Если возраст ребенка равен " + age2 + ", то он может кататься один.");
     }
 }
