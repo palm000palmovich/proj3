@@ -58,5 +58,25 @@ public class Main {
             System.out.println("Если возраст ребенка равен " + age2 + ", то ему можно кататься только со взрослым.");
         if (age2 >= 14)
             System.out.println("Если возраст ребенка равен " + age2 + ", то он может кататься один.");
+
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 6");
+        String s = "";
+        byte vagon = 102, sit = 60;
+        int person_sit = 50, person_stand = 40;
+        if ((person_stand + person_sit <= vagon) && (person_sit <= sit)){
+            if (person_sit == sit) {
+                s = "нет свободных сидячих мест";
+                System.out.println("Всего свободных мест: " + (vagon - (person_stand + person_sit)) +
+                        ", " + s);
+            } else if (person_sit < sit)
+                System.out.println("Всего свободных мест: " + (vagon - (person_stand + person_sit)) +
+                        ", из них " + (sit - person_sit) + " сидячих мест свободно");
+
+        } else
+            System.out.println("Вагон забит!");
+
     }
 }
