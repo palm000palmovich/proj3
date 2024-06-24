@@ -78,5 +78,34 @@ public class Main {
         } else
             System.out.println("Вагон забит!");
 
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 7");
+        int one = 1, two = 2, three = 3;
+        int max = 0;
+        if (one > two && one > three) {
+            max = one;
+            System.out.println("Макс число: " + max);
+        } else if ((one == two && one > three) || (one == three && one > two)){
+            max = one;
+            System.out.println("Макс число: " + max);
+        }
+
+        if (three > two && three > one) {
+            max = three;
+            System.out.println("Макс число: " + max);
+        } else if ((three == two && one < three) || (one == three && three > two)){
+            max = three;
+            System.out.println("Макс число: " + max);
+        }
+
+        if (two > one && two > three) {
+            max = two;
+            System.out.println("Макс число: " + max);
+        } else if ((two == one && two > three) || (two == three && two > one)){
+            max = two;
+            System.out.println("Макс число: " + max);
+        }
     }
 }
