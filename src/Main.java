@@ -16,10 +16,11 @@ public class Main {
         }
         System.out.println("Задание 2");
         int temp = 5;
-        if (temp < 5){
+        if (temp <= 5){
             System.out.println("На улице холодно, нужно надеть шапку");
-        } else
+        } else{
             System.out.println("Сегодня тепло, можно идти без шапки");
+        }
 
 
         for (int i = 0; i < 3; i++){
@@ -29,7 +30,8 @@ public class Main {
         int speed = 60;
         if (speed > 60){
             System.out.println("Если скрость " + speed + ", придется заплатить штраф.");
-        } else
+        } else{
             System.out.println("Если скрость " + speed + ", можно ездить спокойно.");
+        }
     }
 }
