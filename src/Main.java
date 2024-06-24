@@ -31,5 +31,22 @@ public class Main {
             System.out.println("Если скрость " + speed + " км/ч, придется заплатить штраф.");
         } else
             System.out.println("Если скрость " + speed + " км/ч, можно ездить спокойно.");
+
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 4");
+        int age1 = 25;
+        if (age1 >= 2 && age1 <= 6)
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в садик.");
+        if (age1 >= 7 && age1 <= 17)
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу.");
+        if (age1 >= 18 && age1 <= 24)
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в университет.");
+        if (age1 > 24)
+            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить на работу.");
+
+
+
     }
 }
